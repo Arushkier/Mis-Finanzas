@@ -2,21 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   
-  <!-- Habilita pantalla completa sin tubito/barra de búsqueda en iPhone -->
+  <!-- Forzar Modo App / Pantalla completa sin barra en iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Mis Finanzas">
   
-  <!-- Tu icono personalizado JPG -->
+  <!-- Tu icono personalizado -->
   <link rel="apple-touch-icon" href="https://i.ibb.co/5gB70Cz8/Gemini-Generated-Image.jpg">
 
-  <script>
-    // Redirección instantánea a tu Web App
-    window.location.href = "https://script.google.com/macros/s/AKfycbwFSvS8OGrPDZ95aDg3SbZuhkG7nzsdcCG5yEjEDsqQJOqRvQMYCjOQdA-iHCI23cLZMA/exec";
-  </script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f8fafc;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
-<body style="background-color: #f8fafc;">
+<body>
+  <iframe src="https://script.google.com/macros/s/AKfycbwFSvS8OGrPDZ95aDg3SbZuhkG7nzsdcCG5yEjEDsqQJOqRvQMYCjOQdA-iHCI23cLZMA/exec"></iframe>
 </body>
 </html>
