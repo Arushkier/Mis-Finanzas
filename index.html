@@ -5,17 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mis Finanzas</title>
   
-  <!-- Manifiesto PWA -->
-  <link rel="manifest" href="manifest.json">
-  
-  <!-- Iconos para iOS -->
-  <link rel="apple-touch-icon" href="icono.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icono.png">
-  
-  <!-- Configuración App Modo Nativo iOS -->
+  <!-- Configuración App iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Mis Finanzas">
+  
+  <!-- Icono para pantalla de inicio de iOS (reemplazar TU_IMAGEN_BASE64 o colocar una URL) -->
+  <link rel="apple-touch-icon" href="TU_IMAGEN_BASE64">
+  <link rel="apple-touch-icon-precomposed" href="TU_IMAGEN_BASE64">
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,6 +21,6 @@
   </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbwFSvS8OGrPDZ95aDg3SbZuhkG7nzsdcCG5yEjEDsqQJOqRvQMYCjOQdA-iHCI23cLZMA/exec" sandbox="allow-forms allow-scripts allow-same-origin allow-popups"></iframe>
+  <iframe src="https://script.google.com/macros/s/AKfycbwFSvS8OGrPDZ95aDg3SbZuhkG7nzsdcCG5yEjEDsqQJOqRvQMYCjOQdA-iHCI23cLZMA/exec" allow="geolocation; microphone; camera"></iframe>
 </body>
 </html>
